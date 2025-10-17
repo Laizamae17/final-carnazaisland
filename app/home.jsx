@@ -11,22 +11,27 @@ const home = () => {
         <Text style={styles.title}>🌊 Explore the Beauty of Carnaza 🌊</Text>
         <Text style={styles.subtitle}>
           Discover beaches, coves, forests, and hidden gems of this paradise in
-          Cebu.
+          Carnaza Daanbantayan Cebu.
         </Text>
 
         <Link href="/island" style={styles.link}>
-          🌟 Other Beautiful View in Carnaza
+        <Ionicons name="image-outline" size={28} color="white" />
+            Other Beautiful View in Carnaza 
         </Link>
 
-       <Link href="/goals/create" style={styles.link}>
-          ➕ Add a Messages
+        <Link href="/location" style={styles.link}>
+        <Ionicons name="location-outline" size={28} color="white" />
+             Location
         </Link>
 
-        <Link href="/profile" asChild>
-          <TouchableOpacity style={styles.card}>
-            <Ionicons name="person-outline" size={28} color="#fff" />
-            <Text style={styles.cardText}>Profile</Text>
-          </TouchableOpacity>
+        <Link href="/profile" style={styles.link}>
+        <Ionicons name="person-circle-outline" size={28} color="white" />
+             Profile
+        </Link>
+
+         <Link href="/Ratings" style={styles.link}>
+        <Ionicons name="person-circle-outline" size={28} color="white" />
+             Ratings
         </Link>
       </View>
     </View>

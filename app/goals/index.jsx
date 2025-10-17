@@ -18,15 +18,12 @@ const home = () => {
           🌟 Other Beautiful View in Carnaza
         </Link>
 
-       <Link href="/goals/create" style={styles.link}>
-          ➕ Add a Messages
-        </Link>
+        <Link href="/location" style={styles.link}>
+               Location
+        </Link> 
 
-        <Link href="/profile" asChild>
-          <TouchableOpacity style={styles.card}>
-            <Ionicons name="person-outline" size={28} color="#fff" />
-            <Text style={styles.cardText}>Profile</Text>
-          </TouchableOpacity>
+         <Link href="/profile" style={styles.link}>
+               Profile
         </Link>
       </View>
     </View>
