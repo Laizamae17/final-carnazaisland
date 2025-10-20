@@ -24,14 +24,19 @@ const home = () => {
              Location
         </Link>
 
+        <Link href="/Ratings" style={styles.link}>
+        <Ionicons name="star-outline" size={28} color="white" />
+             Ratings
+        </Link>
+
+        <Link href="/reviews" style={styles.link}>
+        <Ionicons name="chatbubble-outline" size={28} color="white" />
+             Reviews
+        </Link>
+
         <Link href="/profile" style={styles.link}>
         <Ionicons name="person-circle-outline" size={28} color="white" />
              Profile
-        </Link>
-
-         <Link href="/Ratings" style={styles.link}>
-        <Ionicons name="person-circle-outline" size={28} color="white" />
-             Ratings
         </Link>
       </View>
     </View>
@@ -121,3 +126,4 @@ const styles = StyleSheet.create({
 });
 
 export default home;
+//
